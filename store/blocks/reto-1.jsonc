@@ -1,0 +1,127 @@
+{
+    "flex-layout.row#deal-1":{
+        "children":[
+            "flex-layout.col#deal-1-col-1",
+            "flex-layout.col#deal-1-col-2",
+            "flex-layout.col#deal-1-col-3",
+            "flex-layout.col#deal-1-col-4",
+            "flex-layout.col#deal-1-col-5"
+        ]
+
+    },
+    "flex-layout.col#deal-1-col-1":{
+        "children":[
+            "flex-layout.row#entregas"
+        ]
+    },
+    "flex-layout.row#entregas":{
+        "children":[
+            "rich-text#entregas-message"
+        ]
+    },
+    "rich-text#entregas-message":{
+        "props":{
+            "text":"Entregas en \n **45 mins**"
+        }
+    },
+    "flex-layout.col#deal-1-col-2":{
+        "children":[
+            "flex-layout.row#compras"
+        ]
+    },
+    "flex-layout.row#compras":{
+        "children":[
+            "rich-text#compras-message"
+        ]
+    },
+    "rich-text#compras-message":{
+        "props":{
+            "text":"Compra  **fácil** \n **y segura**"
+        }
+    },
+    "flex-layout.col#deal-1-col-3":{
+        "children":[
+            "flex-layout.row#precios"
+        ]
+    },
+    "flex-layout.row#precios":{
+        "children":[
+            "rich-text#precios-message"
+        ]
+    },
+    "rich-text#precios-message":{
+        "props":{
+            "text":"Mejores \n  precios y \n **ofertas**"
+        }
+    },
+    "flex-layout.col#deal-1-col-4":{
+        "children":[
+            "flex-layout.row#seguimiento"
+        ]
+    },
+    "flex-layout.row#seguimiento":{
+        "children":[
+            "rich-text#seguimiento-message"
+        ]
+    },
+    "rich-text#seguimiento-message":{
+        "props":{
+            "text":"**Seguimiento** \n  de tus pedidos"
+        }
+    },
+    "flex-layout.col#deal-1-col-5":{
+        "children":[
+            "flex-layout.row#pago"
+        ]
+    },
+    "flex-layout.row#pago":{
+        "children":[
+            "rich-text#pagos-message"
+        ]
+    },
+    "rich-text#pagos-message":{
+        "props":{
+            "text":"Pago **online y** \n **contra entrega**"
+        }
+    },
+    "flex-layout.row#deal-2":{
+        "children":[
+            "flex-layout.col#deal-2-col-1",
+            "flex-layout.col#deal-2-col-2",
+            "flex-layout.col#deal-2-col-3",
+            "flex-layout.col#deal-2-col-4",
+            "flex-layout.col#deal-2-col-5",
+            "flex-layout.col#deal-2-col-6",
+            "flex-layout.col#deal-2-col-7",
+            "flex-layout.col#deal-2-col-8",
+            "flex-layout.col#deal-2-col-9"
+        ]
+    },
+    "flex-layout.col#deal-2-col-1":{
+
+    },
+    "flex-layout.col#deal-2-col-2":{
+
+    },
+    "flex-layout.col#deal-2-col-3":{
+
+    },
+    "flex-layout.col#deal-2-col-4":{
+
+    },
+    "flex-layout.col#deal-2-col-5":{
+
+    },
+    "flex-layout.col#deal-2-col-6":{
+
+    },
+    "flex-layout.col#deal-2-col-7":{
+
+    },
+    "flex-layout.col#deal-2-col-8":{
+
+    },
+    "flex-layout.col#deal-2-col-9":{
+
+    }
+}
