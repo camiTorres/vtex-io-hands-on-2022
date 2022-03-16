@@ -2,7 +2,8 @@
     "store.home": {
         "blocks": [
             "flex-layout.row#deals",
-            "flex-layout.row#categories"
+            "flex-layout.row#categories",
+            "flex-layout.row#food-1"
         ]
     }
 }
