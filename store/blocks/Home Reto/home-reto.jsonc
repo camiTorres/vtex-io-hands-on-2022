@@ -1,7 +1,8 @@
 {
     "responsive-layout.desktop#home-reto":{
         "children":[
-            "list-context.image-list#main-banner"
+            "list-context.image-list#main-banner",
+            "flex-layout.row#deal-home"
         ]
     }
 }
