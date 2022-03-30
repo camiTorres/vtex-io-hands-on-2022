@@ -1,0 +1,7 @@
+{
+    "responsive-layout.desktop#home-reto":{
+        "children":[
+            "list-context.image-list#main-banner"
+        ]
+    }
+}
