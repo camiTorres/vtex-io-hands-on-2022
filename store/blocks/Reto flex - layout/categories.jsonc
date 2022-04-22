@@ -20,7 +20,7 @@
     },
     "rich-text#title-1":{
         "props":{
-            "text":"¿QUE ESTAS  \n  BUSCANDO?",
+            "text":"#### ¿QUE ESTAS  \n  BUSCANDO?",
             "font": "t-heading-5"
         }
     },
