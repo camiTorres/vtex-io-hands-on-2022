@@ -1,0 +1,259 @@
+{
+    "flex-layout.row#food-1":{
+        "children":[
+            "flex-layout.col#food-image",
+            "flex-layout.col#food-description"
+        ],
+        "props":{
+            "colSizing":"auto"
+        }
+    },
+    "flex-layout.col#food-image":{
+        "children":[
+            "image#food-image"
+        ],
+        "props":{
+            "width":"50%"
+        }
+    },
+    "image#food-image":{
+        "props": {
+            "src": "https://i.imgur.com/ipQipBB.jpeg",
+            "maxHeight": 300,
+            "width":650
+          }
+    },
+    "flex-layout.col#food-description":{
+        "children":[
+            "rich-text#food-title",
+            "rich-text#food-description",
+            "responsive-layout.desktop#features",
+            "responsive-layout.phone#features",
+            "responsive-layout.tablet#features"
+        ],
+        "props":{
+            "width":"50%"
+        }
+    },
+    "rich-text#food-title":{
+        "props":{
+            "text":"### Pavo dorado relleno al horno"
+        }
+    },
+    "rich-text#food-description":{
+        "props":{
+            "text":"Delicioso y sencillo de preparar, pavo al horno relleno de verduras con lorem ipsum para celebrar la navidad con toda la familia."
+        }
+    },
+    "responsive-layout.desktop#features":{
+        "children":[
+            "flex-layout.row#food-features-1",
+            "flex-layout.row#food-features-2"
+        ]
+    },
+    "responsive-layout.phone#features":{
+        "children":[
+            "flex-layout.row#food-features-1-mobile",
+            "flex-layout.row#food-features-2-mobile",
+            "flex-layout.row#food-features-3-mobile"
+        ]
+    },
+    "responsive-layout.tablet#features":{
+        "children":[
+            "flex-layout.row#food-features-1-mobile",
+            "flex-layout.row#food-features-2-mobile",
+            "flex-layout.row#food-features-3-mobile"
+        ]
+    },   
+    "flex-layout.row#food-features-1":{
+        "children":[
+            "flex-layout.col#feature-1",
+            "flex-layout.col#feature-2",
+            "flex-layout.col#feature-3"
+        ]
+    },
+    "flex-layout.row#food-features-2":{
+        "children":[
+            "flex-layout.col#feature-4",
+            "flex-layout.col#feature-5",
+            "flex-layout.col#feature-6"
+        ]
+    },
+    "flex-layout.row#food-features-1-mobile":{
+        "children":[
+            "flex-layout.col#feature-1",
+            "flex-layout.col#feature-2"
+        ],
+        "props":{
+            "preserveLayoutOnMobile":true   
+        }
+    },
+    "flex-layout.row#food-features-2-mobile":{
+        "children":[
+            "flex-layout.col#feature-3",
+            "flex-layout.col#feature-4"
+        ],
+        "props":{
+            "preserveLayoutOnMobile":true   
+        }
+    },
+    "flex-layout.row#food-features-3-mobile":{
+        "children":[
+            "flex-layout.col#feature-5",
+            "flex-layout.col#feature-6"
+        ],
+        "props":{
+            "preserveLayoutOnMobile":true   
+        }
+    },
+    "flex-layout.col#feature-1":{
+        "children":[
+            "flex-layout.row#food-feature-1"
+        ]
+    },
+    "flex-layout.row#food-feature-1":{
+        "children":[
+            "image#feature-1",
+            "rich-text#feature-1"
+        ],
+        "props":{
+            "preserveLayoutOnMobile":true
+        }
+    },
+    "image#feature-1":{
+        "props": {
+            "src": "https://imgur.com/RWj3DiZ.png",
+            "maxHeight": 24
+          }
+    },
+    "rich-text#feature-1":{
+        "props":{
+            "text":"60 minutos"
+        }
+    },
+    "flex-layout.col#feature-2":{
+        "children":[
+            "flex-layout.row#food-feature-2"
+        ]
+    },
+    "flex-layout.row#food-feature-2":{
+        "children":[
+            "image#feature-2",
+            "rich-text#feature-2"
+        ],
+        "props":{
+            "preserveLayoutOnMobile":true
+        }
+    },
+    "image#feature-2":{
+        "props": {
+            "src": "https://i.imgur.com/YU224Ni.png",
+            "maxHeight": 24
+          }
+    },
+    "rich-text#feature-2":{
+        "props":{
+            "text":"8 ingredientes"
+        }
+    },
+    "flex-layout.col#feature-3":{
+        "children":[
+            "flex-layout.row#food-feature-3"
+        ]
+    },
+    "flex-layout.row#food-feature-3":{
+        "children":[
+            "image#feature-3",
+            "rich-text#feature-3"
+        ],
+        "props":{
+            "preserveLayoutOnMobile":true   
+        }
+    },
+    "image#feature-3":{
+        "props": {
+            "src": "https://imgur.com/EvjGjXS.png",
+            "maxHeight": 24
+          }
+    },
+    "rich-text#feature-3":{
+        "props":{
+            "text":"Nivel: principiante"
+        }
+    },
+    "flex-layout.col#feature-4":{
+        "children":[
+            "flex-layout.row#food-feature-4"
+        ]
+    },
+    "flex-layout.row#food-feature-4":{
+        "children":[
+            "image#feature-4",
+            "rich-text#feature-4"
+        ],
+        "props":{
+            "preserveLayoutOnMobile":true   
+        }
+    },
+    "image#feature-4":{
+        "props": {
+            "src": "https://imgur.com/9V8uyXo.png",
+            "maxHeight": 24
+          }
+    },
+    "rich-text#feature-4":{
+        "props":{
+            "text":"4 a 6 comensales"
+        }
+    },
+    "flex-layout.col#feature-5":{
+        "children":[
+            "flex-layout.row#food-feature-5"
+        ]
+    },
+    "flex-layout.row#food-feature-5":{
+        "children":[
+            "image#feature-5",
+            "rich-text#feature-5"
+        ],
+        "props":{
+            "preserveLayoutOnMobile":true   
+        }
+    },
+    "image#feature-5":{
+        "props": {
+            "src": "https://imgur.com/xx4LO0k.png",
+            "maxHeight": 24
+          }
+    },
+    "rich-text#feature-5":{
+        "props":{
+            "text":"S/1200 - S/1480"
+        }
+    },
+    "flex-layout.col#feature-6":{
+        "children":[
+            "flex-layout.row#food-feature-6"
+        ]
+    },
+    "flex-layout.row#food-feature-6":{
+        "children":[
+            "image#feature-6",
+            "rich-text#feature-6"
+        ],
+        "props":{
+            "preserveLayoutOnMobile":true   
+        }
+    },
+    "image#feature-6":{
+        "props": {
+            "src": "https://imgur.com/IhKo5Rc.png",
+            "maxHeight": 24
+          }
+    },
+    "rich-text#feature-6":{
+        "props":{
+            "text":"País: Perú"
+        }
+    }
+}
