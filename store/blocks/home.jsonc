@@ -11,7 +11,8 @@
             /* "responsive-layout.desktop#home-reto" */
 /*             "list-context.product-list#main-1",
             "list-context.product-list#main-2" */
-            "list-context.image-list#images-dress"
+           /*  "list-context.image-list#images-dress" */
+           "slider-layout#deals"
         ]
     }
 }
