@@ -1,8 +1,7 @@
 {
     "store.home": {
         "blocks": [
-            "list-context.image-list#deals-1",
-            "list-context.image-list#deals-2" 
+            "drawer#menu"
         ]
     }
 }

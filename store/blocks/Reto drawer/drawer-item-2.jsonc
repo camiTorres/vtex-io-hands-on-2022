@@ -1,0 +1,36 @@
+{
+    "drawer#item-2": {
+        "children": [
+            "image#tallas-img"
+        ],
+        "blocks": [
+            "drawer-trigger#item-2",
+            "drawer-header#-item-2"
+        ]
+    },
+    "drawer-trigger#item-2": {
+        "children": [
+            "flex-layout.row#item-2"
+        ]
+    },
+    "drawer-header#-item-2": {
+        "children": [
+            "drawer-close-button",
+            "rich-text#title-2"
+        ]
+    },
+    "flex-layout.row#item-2": {
+        "children": [
+            "rich-text#title-2",
+            "image#arrow-right"
+        ],
+        "props": {
+            "blockClass": "menu-container"
+        }
+    },
+    "rich-text#title-2": {
+        "props": {
+            "text": "Hombre"
+        }
+    }
+}

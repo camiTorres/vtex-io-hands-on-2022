@@ -1,0 +1,18 @@
+.closeIconButton{
+    visibility: hidden;
+    transform: rotate(180deg);
+    padding-bottom: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.closeIconButton::before{
+    visibility: initial;
+    content:url('https://i.imgur.com/r1VYUKc.png'); 
+    width: 10px;
+    height:10px;
+    display:block;
+}
+.childrenContainer {
+    display:block;
+}

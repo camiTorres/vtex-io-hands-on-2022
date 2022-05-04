@@ -1,0 +1,41 @@
+{
+  "drawer#menu": {
+    "children": [
+      "drawer#item-1",
+      "drawer#item-2"
+    ],
+    "blocks": [
+      "drawer-header#my-drawer",
+      "drawer-trigger"
+    ]
+  },
+  "drawer-trigger": {
+    "children": [
+      "rich-text#open-drawer-size-guide"
+    ]
+  },
+  "rich-text#open-drawer-size-guide": {
+    "props": {
+      "text": "Guia de tallas"
+    }
+  },
+  "drawer-header#my-drawer": {
+    "children": [
+      "drawer-close-button",
+      "rich-text#open-drawer-size-guide"
+    ]
+  },
+  "image#arrow-right": {
+    "props": {
+      "src": "https://i.imgur.com/r1VYUKc.png",
+      "maxHeight": 24
+    }
+  },
+  "image#tallas-img": {
+    "props": {
+      "src": "https://i.imgur.com/HLLiO8N.jpeg",
+      "maxHeight": 500,
+      "maxWidth": 250
+    }
+  }
+}

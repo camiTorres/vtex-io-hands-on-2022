@@ -5,3 +5,6 @@
 .flexRow{
     align-items: center
 }
+.flexRowContent--menu-container{
+    display: flex;
+}
