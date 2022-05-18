@@ -14,16 +14,5 @@
         "props":{
             "verticalAlign":"middle"
           }
-    },
-    "logo": {
-        "props": {
-            "url":"/arquivos/blacksip-logo.png",
-            "title":"Blacksip",
-            "href":"/",
-            "width": 132,
-            "height": 32,
-            "mobileWidth": 98,
-            "mobileHeight": 26
-        }
     }
 }

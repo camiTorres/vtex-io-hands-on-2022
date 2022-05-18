@@ -36,5 +36,16 @@
         "children": [
             "flex-layout.row#header-table"
         ]
+    },
+    "logo": {
+        "props": {
+            "url":"assets/img/blacksip-logo.png",
+            "title":"Blacksip",
+            "href":"/",
+            "width": 132,
+            "height": 32,
+            "mobileWidth": 98,
+            "mobileHeight": 26
+        }
     }
 }
