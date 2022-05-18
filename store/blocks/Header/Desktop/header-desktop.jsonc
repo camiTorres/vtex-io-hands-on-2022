@@ -1,0 +1,29 @@
+{
+    "flex-layout.row#header-container":{
+        "children":[
+            "flex-layout.col#logo"
+        ],
+        "props":{
+            "paddingTop":5
+        }
+    },
+    "flex-layout.col#logo":{
+        "children":[
+            "logo"
+        ],
+        "props":{
+            "verticalAlign":"middle"
+          }
+    },
+    "logo": {
+        "props": {
+            "url":"/arquivos/blacksip-logo.png",
+            "title":"Blacksip",
+            "href":"/",
+            "width": 132,
+            "height": 32,
+            "mobileWidth": 98,
+            "mobileHeight": 26
+        }
+    }
+}

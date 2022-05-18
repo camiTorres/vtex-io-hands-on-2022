@@ -7,15 +7,34 @@
     },
     "header-layout.desktop": {
         "children": [
-            "header-row#1-desktop"
+            "header-row#desktop-1",
+            "header-row#desktop-2"
         ]
     },
-    "header-row#1-desktop": {
+    "header-row#desktop-1": {
+        "children": [
+            "flex-layout.row#header-container"
+        ]
+    },
+    "header-row#desktop-2": {
         "children": [
             "flex-layout.row#mega-menu-desktop"
         ]
     },
     "header-layout.mobile":{
-        "children": ["drawer#menu"]
+        "children": [
+            "responsive-layout.phone#header",
+            "responsive-layout.tablet#header"
+        ]
+    },
+    "responsive-layout.phone#header":{
+        "children": [
+            "flex-layout.row#header-mobile"
+        ]
+    },
+    "responsive-layout.tablet#header":{
+        "children": [
+            "flex-layout.row#header-table"
+        ]
     }
 }

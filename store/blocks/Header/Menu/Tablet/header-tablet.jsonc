@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#header-table":{
+        "children":[
+            "drawer#menu",
+            "flex-layout.col#logo",
+            "flex-layout.col#account-minicart-container-tablet"
+        ],
+        "props":{
+            "paddingTop":5,
+            "preserveLayoutOnMobile":true,
+            "fullWidth":true,
+            "horizontalAlign":"center",
+            "verticalAlign":"middle"
+        }
+    },
+    "flex-layout.col#account-minicart-container-tablet":{
+        "children": [
+        ]
+    }
+}
