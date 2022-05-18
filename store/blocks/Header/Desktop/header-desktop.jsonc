@@ -1,10 +1,15 @@
 {
     "flex-layout.row#header-container":{
         "children":[
-            "flex-layout.col#logo"
+            "flex-layout.col#logo",
+            "flex-layout.col#seach-bar",
+            "flex-layout.row#options-container-desktop"
         ],
         "props":{
-            "paddingTop":5
+            "paddingTop":5,
+            "fullWidth":true,
+            "horizontalAlign":"center",
+            "blockClass": "header-container"
         }
     },
     "flex-layout.col#logo":{
@@ -15,15 +20,12 @@
             "verticalAlign":"middle"
           }
     },
-    "logo": {
-        "props": {
-            "url":"/arquivos/blacksip-logo.png",
-            "title":"Blacksip",
-            "href":"/",
-            "width": 132,
-            "height": 32,
-            "mobileWidth": 98,
-            "mobileHeight": 26
-        }
+    "flex-layout.col#seach-bar":{
+        "children": [
+            "search-bar"
+        ]
+    },
+    "flex-layout.row#options-container-desktop":{
+        "children":[]
     }
 }

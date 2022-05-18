@@ -8,3 +8,6 @@
 .flexRowContent--menu-container{
     display: flex;
 }
+.flexRow--header-container{
+    width: 100%;
+}
