@@ -1,0 +1,139 @@
+{
+    "menu-item#departamento-1": {
+        "props": {
+            "id": "dep-1",
+            "blockClass": "font",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/departamento-1",
+                "noFollow": false,
+                "tagTitle": "Departamento 1",
+                "text": "Departamento 1"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#category"
+        ]
+    },
+    "vtex.menu@2.x:submenu#category": {
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "vtex.menu@2.x:menu#category-1-section1"
+        ]
+    },
+    "vtex.menu@2.x:menu#category-1-section1": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "flex-layout.row#category-container"
+
+        ]
+    },
+    "flex-layout.row#category-container":{
+        "children":[
+            "flex-layout.col#category-1",
+            "flex-layout.col#category-2",
+            "flex-layout.col#category-3",
+            "flex-layout.col#category-4"
+        ]
+    },
+    "flex-layout.col#category-1":{
+        "children":[
+            "vtex.menu@2.x:menu#category-section-1",
+            "vtex.menu@2.x:menu#category-section-1",
+            "vtex.menu@2.x:menu#category-section-1"
+        ],
+        "props":{
+            "rowGap":4
+        }
+    },
+    "flex-layout.col#category-2":{
+        "children":[
+            "vtex.menu@2.x:menu#category-section-1",
+            "vtex.menu@2.x:menu#category-section-1",
+            "vtex.menu@2.x:menu#category-section-1"
+        ],
+        "props":{
+            "rowGap":4
+        }
+    },
+    "flex-layout.col#category-3":{
+        "children":[
+            "vtex.menu@2.x:menu#category-section-1",
+            "vtex.menu@2.x:menu#category-section-1",
+            "vtex.menu@2.x:menu#category-section-1"
+        ],
+        "props":{
+            "rowGap":4
+        }
+    },
+    "flex-layout.col#category-4":{
+        "children":[
+            "vtex.menu@2.x:menu#category-section-1",
+            "vtex.menu@2.x:menu#category-section-1",
+            "vtex.menu@2.x:menu#category-section-1"
+        ],
+        "props":{
+            "rowGap":4
+        }
+    },
+    "vtex.menu@2.x:menu#category-section-1": {
+        "props": {
+            "blockClass": "section-category",
+            "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#category-1",
+            "menu-item#sub-category-1",
+            "menu-item#sub-category-2"
+        ]
+    },
+    "menu-item#category-1": {
+        "props": {
+            "id": "cat-1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/category-1",
+              "noFollow": false,
+              "tagTitle": "Categoria",
+              "text": "Categoria"
+            }
+        }
+    },
+    "menu-item#sub-category-1": {
+        "props": {
+            "id": "sub-1",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/category-1",
+              "noFollow": false,
+              "tagTitle": "Subcategoria",
+              "text": "Subcategoria"
+            }
+        }
+    },
+    "menu-item#sub-category-2": {
+        "props": {
+            "id": "sub-2",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+              "type": "internal",
+              "href": "/sub-category-2",
+              "noFollow": false,
+              "tagTitle": "Subcategoria",
+              "text": "Subcategoria"
+            }
+        }
+    }
+}

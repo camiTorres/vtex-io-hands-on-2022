@@ -1,0 +1,21 @@
+{
+    "menu-item#departamento-6": {
+        "props": {
+            "id": "dep-6",
+            "blockClass": "font",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/departamento-6",
+                "noFollow": false,
+                "tagTitle": "Departamento 6",
+                "text": "Departamento 6"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#category"
+        ]
+    }
+}

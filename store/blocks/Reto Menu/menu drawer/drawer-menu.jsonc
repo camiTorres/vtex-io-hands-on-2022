@@ -1,0 +1,55 @@
+{
+  "drawer#menu": {
+    "children": [
+      "drawer#item-1",
+      "menu-item#departamento-2",
+      "menu-item#departamento-3",
+      "menu-item#departamento-4",
+      "menu-item#departamento-5",
+      "menu-item#departamento-6",
+      "menu-item#departamento-7",
+      "flex-layout.row#account-wishlist-container"
+    ]
+  },
+  "flex-layout.row#account-wishlist-container": {
+    "children": [
+      "flex-layout.col#account",
+      "flex-layout.col#wishlist"
+    ],
+    "props":{
+      "preserveLayoutOnMobile":true,
+      "colGap":"auto",
+      "fullWidth":true,
+      "horizontalAlign":"center",
+      "verticalAlign":"middle"
+    }
+  },
+  "flex-layout.col#account": {
+    "children": [
+      "login"
+    ],
+    "props":{
+      "verticalAlign":"middle"
+    }
+  },
+  "flex-layout.col#wishlist":{
+    "children": [
+      "rich-text#wishlist"
+    ],
+    "props":{
+      "verticalAlign":"middle"
+    }
+  },
+
+  "rich-text#wishlist": {
+    "props": {
+      "text": "[wishlist](/wishlist)"
+    }
+  },
+  "image#arrow-right": {
+    "props": {
+      "src": "https://i.imgur.com/r1VYUKc.png",
+      "maxHeight": 24
+    }
+  }
+}

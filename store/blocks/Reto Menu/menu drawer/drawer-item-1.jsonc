@@ -1,0 +1,272 @@
+{
+  "drawer#item-1": {
+    "children": [
+      "menu-item#category-1-mobile",
+      "menu-item#category-2-mobile",
+      "menu-item#category-3-mobile",
+      "menu-item#category-4-mobile",
+      "menu-item#category-5-mobile",
+      "menu-item#category-6-mobile",
+      "menu-item#category-7-mobile"
+    ],
+    "blocks": [
+      "drawer-trigger#item-1",
+      "drawer-header#-item-1"
+    ]
+  },
+  "drawer-trigger#item-1": {
+    "children": [
+      "flex-layout.row#item-1"
+    ]
+  },
+  "drawer-header#-item-1": {
+    "children": [
+      "drawer-close-button",
+      "rich-text#title-1"
+    ]
+  },
+  "flex-layout.row#item-1": {
+    "children": [
+      "rich-text#title-1",
+      "image#arrow-right"
+    ],
+    "props": {
+      "blockClass": "menu-container"
+    }
+  },
+  "rich-text#title-1": {
+    "props": {
+      "text": "Departamento 1"
+    }
+  },
+  "menu-item#category-1-mobile": {
+    "props": {
+      "id": "menu-item-category-1-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/categoria-1",
+        "noFollow": false,
+        "tagTitle": "Categoria 1",
+        "text": "Categoria 1"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#categori-y-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#categori-y-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#category-1-mobile-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-1-mobile-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sub-category-1",
+      "menu-item#sub-category-2"
+    ]
+  },
+  "menu-item#category-2-mobile": {
+    "props": {
+      "id": "menu-item-category-1-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/categoria-2",
+        "noFollow": false,
+        "tagTitle": "Categoria 2",
+        "text": "Categoria 2"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#category-2-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#category-2-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#category-2-mobile-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-2-mobile-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sub-category-1",
+      "menu-item#sub-category-2"
+    ]
+  },
+  
+
+  "menu-item#category-3-mobile": {
+    "props": {
+      "id": "menu-item-category-1-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/categoria-3",
+        "noFollow": false,
+        "tagTitle": "Categoria 3",
+        "text": "Categoria 3"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#category-3-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#category-3-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#category-3-mobile-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-3-mobile-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sub-category-1",
+      "menu-item#sub-category-2"
+    ]
+  },
+  
+  "menu-item#category-4-mobile": {
+    "props": {
+      "id": "menu-item-category-1-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/categoria-4",
+        "noFollow": false,
+        "tagTitle": "Categoria 4",
+        "text": "Categoria 4"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#category-4-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#category-4-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#category-4-mobile-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-4-mobile-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sub-category-1",
+      "menu-item#sub-category-2"
+    ]
+  },
+
+  "menu-item#category-5-mobile": {
+    "props": {
+      "id": "menu-item-category-1-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/categoria-5",
+        "noFollow": false,
+        "tagTitle": "Categoria 5",
+        "text": "Categoria 5"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#category-5-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#category-5-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#category-5-mobile-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-5-mobile-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sub-category-1",
+      "menu-item#sub-category-2"
+    ]
+  },
+
+  "menu-item#category-6-mobile": {
+    "props": {
+      "id": "menu-item-category-1-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/categoria-6",
+        "noFollow": false,
+        "tagTitle": "Categoria 6",
+        "text": "Categoria 6"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#category-6-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#category-6-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#category-6-mobile-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-6-mobile-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sub-category-1",
+      "menu-item#sub-category-2"
+    ]
+  },
+
+  "menu-item#category-7-mobile": {
+    "props": {
+      "id": "menu-item-category-1-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/categoria-7",
+        "noFollow": false,
+        "tagTitle": "Categoria 7",
+        "text": "Categoria 7"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#category-7-mobile"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#category-7-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#category-7-mobile-accordion"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-7-mobile-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sub-category-1",
+      "menu-item#sub-category-2"
+    ]
+  }
+}

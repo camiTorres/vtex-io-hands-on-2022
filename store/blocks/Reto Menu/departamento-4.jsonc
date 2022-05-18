@@ -1,0 +1,21 @@
+{
+    "menu-item#departamento-4": {
+        "props": {
+            "id": "dep-4",
+            "blockClass": "font",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/departamento-4",
+                "noFollow": false,
+                "tagTitle": "Departamento 4",
+                "text": "Departamento 4"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#category"
+        ]
+    }
+}

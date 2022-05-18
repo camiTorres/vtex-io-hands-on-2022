@@ -1,0 +1,17 @@
+{
+    "flex-layout.row#mega-menu-desktop": {
+        "children": [
+            "menu-item#departamento-1",
+            "menu-item#departamento-2",
+            "menu-item#departamento-3",
+            "menu-item#departamento-4",
+            "menu-item#departamento-5",
+            "menu-item#departamento-6",
+            "menu-item#departamento-7"
+        ],
+        "props":{
+            "marginTop":4,
+            "marginBottom":3
+        }
+    }
+}
