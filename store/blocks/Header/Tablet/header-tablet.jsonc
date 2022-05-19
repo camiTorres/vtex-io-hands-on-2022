@@ -15,6 +15,7 @@
     },
     "flex-layout.col#account-minicart-container-tablet":{
         "children": [
+            "login"
         ]
     }
 }

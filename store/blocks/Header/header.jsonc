@@ -1,9 +1,15 @@
 {
     "header": {
-        "blocks": ["header-layout.desktop", "header-layout.mobile"]
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
     },
     "header.full": {
-        "blocks": ["header-layout.desktop", "header-layout.mobile"]
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
     },
     "header-layout.desktop": {
         "children": [
@@ -21,55 +27,97 @@
             "flex-layout.row#mega-menu-desktop"
         ]
     },
-    "header-layout.mobile":{
+    "header-layout.mobile": {
         "children": [
             "responsive-layout.phone#header",
             "responsive-layout.tablet#header"
         ]
     },
-    "responsive-layout.phone#header":{
+    "responsive-layout.phone#header": {
         "children": [
             "flex-layout.row#header-mobile",
             "flex-layout.row#search-container"
         ],
         "props": {
             "fullWidth": true
-          }
+        }
     },
-    "responsive-layout.tablet#header":{
+    "responsive-layout.tablet#header": {
         "children": [
             "flex-layout.row#header-table",
             "flex-layout.row#search-container"
         ],
-        "props":{
-            "horizontalAlign":"center"
+        "props": {
+            "horizontalAlign": "center"
         }
     },
-    "flex-layout.row#search-container":{
+    "flex-layout.row#search-container": {
         "children": [
             "search-bar"
         ],
-        "props":{
-            "fullWidth":true
+        "props": {
+            "fullWidth": true
         }
     },
-    "search-bar": {  
+    "search-bar": {
         "props": {
             "openAutocompleteOnFocus": true,
-            "placeholder":"¿Qué producto buscas?",
-            "displayMode":"search-button",
-            "maxWidth":"500px"
+            "placeholder": "¿Qué producto buscas?",
+            "displayMode": "search-button",
+            "maxWidth": "500px"
         }
     },
     "logo": {
         "props": {
-            "url":"assets/img/blacksip-logo.png",
-            "title":"Blacksip",
-            "href":"/",
+            "url": "assets/img/blacksip-logo.png",
+            "title": "Blacksip",
+            "href": "/",
             "width": 132,
             "height": 32,
             "mobileWidth": 98,
             "mobileHeight": 26
+        }
+    },
+    "login": {
+        "props": {
+            "iconLabel": "Mi Cuenta",
+            "emailPlaceholder": "ejemplo@mail.com",
+            "accountOptionsButtonBehavior":"Codigo",
+            "providerPasswordButtonLabel":"Entrar",
+            "showIconProfile": true,
+            "accountOptionLinks": [
+                {
+                    "label": "Mi Perfil",
+                    "path": "/account#/profile",
+                    "cssClass": "profile-link"
+                },
+                {
+                    "label": "Mis Pedidos",
+                    "path": "/account#/orders",
+                    "cssClass": "profile-link"
+                },
+                {
+                    "label": "Mis Direcciones",
+                    "path": "/account#/addresses",
+                    "cssClass": "profile-link"
+                }
+            ],
+            "optionsTitle": "Elige una de las opciones para confirmar tu identidad",
+            "accessCodeTitle": "Recibir código",
+            "emailAndPasswordTitle":"Ingresa a tu cuenta",
+            "termsAndConditions": "Al registrarte estas aceptando nuestros [**Términos y Condiciones**](/terminos-y-condiciones)"
+        }
+    },
+    "login-content": {
+        "props": {
+            "emailPlaceholder": "ejemplo@mail.com",
+            "passwordPlaceholder": "Ingresa tu contraseña",
+            "isInitialScreenOptionOnly": false,
+            "emailAndPasswordTitle":"Ingresa a tu cuenta",
+            "defaultOption": 1,
+            "optionsTitle":"Ingresa a tu cuenta",
+            "showPasswordVerificationIntoTooltip": true,
+            "termsAndConditions": "Al registrarte estas aceptando nuestros [**Términos y Condiciones**](/terminos-y-condiciones)"
         }
     }
 }

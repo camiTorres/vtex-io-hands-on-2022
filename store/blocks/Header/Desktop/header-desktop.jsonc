@@ -26,6 +26,6 @@
         ]
     },
     "flex-layout.row#options-container-desktop":{
-        "children":[]
+        "children":["login"]
     }
 }
