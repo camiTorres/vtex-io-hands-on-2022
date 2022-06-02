@@ -1,0 +1,57 @@
+.brandName{
+    font-weight: 400;
+    font-size: 12px; 
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 2;
+    max-height: 2;
+}
+.price_listPriceLabel{
+    display: none
+}
+.price_sellingPriceLabel,
+.price_installmentContainer,
+.price_listPriceLabel{
+    display: none
+}
+.price_listPrice{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #4F4F4F;
+}
+
+.price_sellingPrice{
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    color: #4F4F4F;
+}
+.productBrandName{
+    font-weight: 700;
+    font-size: 10px;
+    text-align: center;
+    color: #4F4F4F;
+}
+.buyButtonText{
+    font-weight: 400;
+    font-size: 13px;
+    color: #2E3192;
+    text-transform:initial;
+}
+/* Tablet */
+@media (min-width:40rem){
+    .buyButtonText{
+        color: #fff;
+    }
+}
+/* Desktop */
+@media (min-width:64rem){
+    .buyButtonText{
+        color: #2E3192;
+    }
+}

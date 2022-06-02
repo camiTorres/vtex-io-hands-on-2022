@@ -1,7 +1,7 @@
 {
     "store.home": {
         "blocks": [
-            "list-context.product-list#main-1"
+            "flex-layout.row#home-slider-container-1"
         ]
     }
 }

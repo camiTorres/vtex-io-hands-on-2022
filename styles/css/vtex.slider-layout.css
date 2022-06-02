@@ -1,0 +1,48 @@
+.sliderLayoutContainer--home-slider :global(.vtex-product-summary-2-x-image){
+    width: 140px;
+    height: 140px;
+    border: 1px solid #EDE9E9;
+}
+.slide--home-slider{
+    padding: 0.5rem;
+}
+.sliderTrackContainer--home-slider{
+    margin: 0 1rem;
+}
+.sliderLayoutContainer--home-slider :global(.vtex-store-components-3-x-discountInsideContainer ){
+    left: 0;
+    width: fit-content;
+    background: #FFBB00;
+    color: #2E3192;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.sliderLayoutContainer--home-slider  :global(.vtex-button){
+    background-color:transparent;
+    border: 1px solid #2E3192;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+/* Tablet */
+@media (min-width:40rem){
+    .sliderLayoutContainer--home-slider :global(.vtex-product-summary-2-x-image){
+        width: 206px;
+        height: 206px;
+    }
+    .sliderLayoutContainer--home-slider  :global(.vtex-button){
+        background-color:#000;
+        border: 1px solid #000;
+    }
+}
+/* Desktop */
+@media (min-width:64rem){
+    .sliderLayoutContainer--home-slider  :global(.vtex-button){
+        background-color:#FFBB00;
+        border: 1px solid #FFBB00;
+    }
+    .sliderTrackContainer--home-slider{
+        margin: 0px 3rem;
+    }
+}
