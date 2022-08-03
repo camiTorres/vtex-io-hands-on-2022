@@ -1,3 +1,9 @@
-.imageElement{
-    margin: auto 0;
+.container{
+    padding: 0;
+}
+.imageElement--social-networks-img{
+    margin:.8rem;
+}
+.imageElement--payments-methods-img{
+    margin:1.2rem;
 }

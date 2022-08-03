@@ -1,7 +1,11 @@
-/* .stretchChildrenWidth{
-    display: flex;
-    align-items: center;
+.flexCol--footer-wrapper{
+    background-color: #000000;
+    padding:2.3rem 2rem 0 2rem;
 }
-.flexRow{
-    align-items: center
-} */
+.flexRowContent--footer-social-networks, .flexRowContent--footer-payments-methods, .flexRowContent--logos-power-by {
+    justify-content:center;
+    align-items:center;
+}
+.flexRow--power-by-wrapper{
+    width:100%;
+}

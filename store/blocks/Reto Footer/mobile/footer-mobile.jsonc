@@ -1,0 +1,298 @@
+{
+    "responsive-layout.mobile#footer": {
+        "children": [
+            "flex-layout.row#footer-wrapper"
+        ]
+    },
+    "flex-layout.row#footer-wrapper": {
+        "children": [
+            "flex-layout.col#footer-container",
+            "flex-layout.row#power-by"
+        ],
+        "props": {
+            "fullWidth":true
+        }
+    },
+    "flex-layout.col#footer-container": {
+        "children": [
+            "flex-layout.row#social-networks",
+            "menu-item#about-us",
+            "menu-item#help",
+            "menu-item#contact-us",
+            "rich-text#payments",
+            "flex-layout.row#payments-methods"
+            
+        ],
+        "props":{
+            "blockClass":"footer-wrapper"
+        }
+    },
+    "flex-layout.row#social-networks": {
+        "children": [
+            "image#facebook",
+            "image#instagram",
+            "image#whatsapp"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing":"auto",
+            "horizontalAlignment":"center",
+            "marginBottom":7,
+            "blockClass":"footer-social-networks"
+        }
+    },
+    "image#facebook": {
+        "title":"Facebook",
+        "props": {
+            "src":"assets/img/Facebook.png",
+            "maxHeight": 20,
+            "blockClass":"social-networks-img",
+            "link":{
+                "url":"https://www.facebook.com/",
+                "newTab":"true"
+            }
+          }
+    },
+    "image#instagram": {
+        "title":"Instagram",
+        "props": {
+            "src":"assets/img/Instagram.png",
+            "maxHeight": 20,
+            "blockClass":"social-networks-img",
+            "link":{
+                "url":"https://www.instagram.com/",
+                "newTab":"true"
+            }
+          }
+    },
+    "image#whatsapp": {
+        "title":"whatsapp",
+        "props": {
+            "src":"assets/img/Whatsapp.png",
+            "maxHeight": 20,
+            "blockClass":"social-networks-img",
+            "link":{
+                "url":"https://wa.me/570000000000",
+                "newTab":"true"
+            }
+          }
+    },
+    "menu-item#about-us": {
+        "props": {
+            "id": "menu-item-category-1-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/categoria-1",
+                "noFollow": false,
+                "tagTitle": "Nosotros",
+                "text": "Nosotros"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#about-us"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#about-us": {
+        "children": [
+            "vtex.menu@2.x:menu#about-us"
+        ]
+    },
+    "vtex.menu@2.x:menu#about-us": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": [
+            "rich-text#about-us",
+            "rich-text#privacy-notify",
+            "rich-text#term-conditions"
+        ]
+    },
+    "rich-text#about-us": {
+        "props": {
+            "text": "[Quienes somos](about-us.com)",
+            "blockClass": "icon-about-us"
+        }
+    },
+    "rich-text#privacy-notify": {
+        "props": {
+            "text": "[Avison de privacidad](privacy-notify.com)",
+            "blockClass": "icon-privacy-notify"
+        }
+    },
+    "rich-text#term-conditions": {
+        "props": {
+            "text": "[Términos y Condiciones](term-conditions.com)",
+            "blockClass": "icon-term-conditions"
+        }
+    },
+    "menu-item#help": {
+        "props": {
+            "id": "menu-item-category-1-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/categoria-1",
+                "noFollow": false,
+                "tagTitle": "Ayuda",
+                "text": "Ayuda"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#help"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#help": {
+        "children": [
+            "vtex.menu@2.x:menu#help"
+        ]
+    },
+    "vtex.menu@2.x:menu#help": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": []
+    },
+    "menu-item#contact-us": {
+        "props": {
+            "id": "menu-item-category-1-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/categoria-1",
+                "noFollow": false,
+                "tagTitle": "Conctáctanos",
+                "text": "Conctáctanos"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu.accordion#contact-us"
+        ]
+    },
+    "vtex.menu@2.x:submenu.accordion#contact-us": {
+        "children": [
+            "vtex.menu@2.x:menu#contact-us"
+        ]
+    },
+    "vtex.menu@2.x:menu#contact-us": {
+        "props": {
+            "orientation": "vertical"
+        },
+        "children": []
+    },
+    "rich-text#payments": {
+        "props": {
+            "text": "Medios de pago"
+        }
+    },
+    "flex-layout.row#payments-methods":{
+        "children":[
+            "image#mastercard",
+            "image#visa",
+            "image#american-express"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colSizing":"auto",
+            "horizontalAlignment":"center",
+            "marginBottom":7,
+            "blockClass":"footer-payments-methods"
+        }
+        
+    },
+    "image#mastercard": {
+        "title":"Mastercard",
+        "props": {
+            "src":"assets/img/Mastercard.png",
+            "maxHeight": 30,
+            "blockClass":"payments-methods-img"
+        } 
+    },
+    "image#visa": {
+        "title":"Visa",
+        "props": {
+            "src":"assets/img/Visa.png",
+            "maxHeight": 15,
+            "blockClass":"payments-methods-img"
+        } 
+    },
+    "image#american-express": {
+        "title":"American Express",
+        "props": {
+            "src":"assets/img/American-express.png",
+            "maxHeight": 30,
+            "blockClass":"payments-methods-img"
+        } 
+    },
+    "flex-layout.row#power-by": {
+        "children": [
+            "flex-layout.col#power-by-text",
+            "flex-layout.col#logos-asociated"
+        ],
+        "props": {
+            "fullWidth":true,
+            "horizontalAlign":"center",
+            "blockClass":"power-by-wrapper"
+        }
+    },
+    "flex-layout.col#power-by-text": {
+        "children": [
+            "rich-text#power-by"
+        ],
+        "props":{
+            "blockClass":"footer-power-by",
+            "horizontalAlign":"center",
+            "fullWidth":true
+        }
+    },
+    "rich-text#power-by": {
+        "props": {
+            "text": " © Todos los derechos reservados Empowered By",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass":"power-by-text"
+        }
+    },
+    "flex-layout.col#logos-asociated": {
+        "children": [
+            "flex-layout.row#logos"
+        ],
+        "props": {
+            "fullWidth":true
+        }
+    },
+    "flex-layout.row#logos": {
+        "children": [
+            "logo#blacksip",
+            "logo#vtex"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "horizontalAlign":"center",
+            "colSizing":"auto",
+            "fullWidth":true,
+            "colJustify":"center",
+            "blockClass":"logos-power-by"
+        }
+    },
+    "logo#blacksip": {
+        "props": {
+            "url": "/arquivos/Blacksip-logo-black.svg",
+            "width": 56,
+            "height": 15
+        }
+    },
+    "logo#vtex": {
+        "props": {
+            "url": "/arquivos/Vtex.png",
+            "width": 48,
+            "height": 17
+        }
+    }
+}

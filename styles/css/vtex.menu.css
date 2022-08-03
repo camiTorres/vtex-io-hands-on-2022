@@ -1,0 +1,14 @@
+.styledLinkContent{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+.styledLinkContainer{
+    margin: 10px 0;
+    padding: 0;
+}
+.accordionIcon--isClosed{
+    background: lightblue url("assets/img/arrow-down.png") no-repeat fixed center;
+}
